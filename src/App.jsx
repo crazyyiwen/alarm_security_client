@@ -25,7 +25,7 @@ export default function App() {
 
     try {
       // Call FastAPI backend
-      const response = await fetch("http://localhost:8000/query", {
+      const response = await fetch("http://localhost:8000/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json" 
@@ -40,7 +40,7 @@ export default function App() {
 
       const botMessage = {
         sender: "bot",
-        text: data.result || "⚠️ No response"
+        text: data.reply || "⚠️ No response"
       };
 
       setMessages(prev => [...prev, botMessage]);
