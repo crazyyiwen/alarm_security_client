@@ -7,6 +7,7 @@
 </div>
 
 ## Get started
+Quick start: [Docs](https://crazyyiwen2015.atlassian.net/wiki/x/vgAC):<br>
 
 Download and host Docker file - alarm-chat-client:
 
