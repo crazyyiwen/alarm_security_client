@@ -21,5 +21,8 @@ Then, open the client side UI in any browser
 http://localhost:5173/
 ```
 
-Now you are hosting client side UI successfully, this is a React based light chatbot.
+Now you are hosting client side UI successfully, this is a React based light chatbot.<br>
+
+
+Documentation: [Server side documentation](https://crazyyiwen2015.atlassian.net/wiki/x/i4AB):<br>
 
