@@ -7,7 +7,7 @@
 </div>
 
 ## Get started
-Quick start: [Docs](https://crazyyiwen2015.atlassian.net/wiki/x/vgAC){target=_blank}:<br>
+Quick start: [Docs](https://crazyyiwen2015.atlassian.net/wiki/x/vgAC):<br>
 
 Download and host Docker file - alarm-chat-client:
 
@@ -25,5 +25,5 @@ http://localhost:5173/
 Now you are hosting client side UI successfully, this is a React based light chatbot.<br>
 
 
-Documentation: [Server side documentation](https://crazyyiwen2015.atlassian.net/wiki/x/i4AB){target=_blank}:<br>
+Documentation: [Server side documentation](https://crazyyiwen2015.atlassian.net/wiki/x/i4AB):<br>
 
