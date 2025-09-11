@@ -25,5 +25,19 @@ http://localhost:5173/
 Now you are hosting client side UI successfully, this is a React based light chatbot.<br>
 
 
-Documentation: [Server side documentation](https://crazyyiwen2015.atlassian.net/wiki/x/i4AB):<br>
+3 Front-End Structure:<br>
+```
+***It's simple and light weight chatbot***
+Each input will call server API and display the response on UI chat window:
+here is the partial code:
+const response = await fetch("http://localhost:8000/chat", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json" 
+        },
+        body: JSON.stringify({ user_input: input })
+      });
+
+<button onClick={sendMessage} disabled={loading}>
+```
 
