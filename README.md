@@ -7,9 +7,17 @@
 </div>
 
 ## Get started
-Quick start: [Docs](https://crazyyiwen2015.atlassian.net/wiki/x/vgAC):<br>
+Quick start:<br>
+```
+docker pull crazyyiwen/alarm-server:latest
+docker run -d -p 8000:8000 --name alarm-server crazyyiwen/alarm-server:latest
 
-Download and host Docker file - alarm-chat-client:
+docker pull crazyyiwen/alarm-chat-client:latest
+docker run -d -p 5173:80 --name alarm-chat-client crazyyiwen/alarm-chat-client:latest
+open http://localhost:5173/
+```
+
+Download and host Docker file - alarm-chat-client(Optional):
 
 ```
 docker build -t alarm-chat-client .
